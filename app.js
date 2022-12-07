@@ -1,5 +1,10 @@
 function sixToast(num) {
-    // you code here
+    let mySum = num - 6;
+    if (mySum < 0) {
+        return Math.abs(mySum);
+    } else {
+        return mySum;
+    }
 }
 
 console.log(sixToast(6)); // 0
